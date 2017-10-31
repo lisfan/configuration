@@ -3,7 +3,6 @@
     "template": "node_modules/docdash",
     "readme": "README.md",
     "encoding": "utf8",
-    "tutorials": "./tutorials",
     "destination": "./docs",
     "recurse": true,
     "verbose": true
@@ -29,9 +28,6 @@
       "outputSourceFiles": true,
       "includeDate": true,
       "staticFiles": {
-        "include": [
-          "./tutorials/assets"
-        ]
       }
     }
   },
@@ -48,7 +44,8 @@
       "returns",
       "throws",
       "todo",
-      "example"
+      "example",
+      "classdesc"
     ],
     "excludeTags": [
       "author",
